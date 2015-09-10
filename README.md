@@ -1,6 +1,19 @@
 # Boulders on Broadway mobile App
 
-We will develop a basic android application that allows users to look up The current Bouder's on Broadway Draft Lists, view Happy Hour prices and special offers, and pull up background information on each draft beer. 
+Develop a basic android application that allows users to: (in order of importance)
+
+-look up current Boudler's on Broadway Draft list
+
+-pull up background information about each draft beer
+
+-see Calendar of upcoming events
+
+-list contact information and directions
+
+-view happy hour info and special offers
+
+-browse current menu offerings
+
 
 Contributors:
 
