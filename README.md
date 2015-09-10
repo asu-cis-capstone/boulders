@@ -6,6 +6,8 @@ Develop a basic android application that allows users to: (in order of importanc
 
 -pull up background information about each draft beer
 
+-push notification when new beer is tapped (at manager's discretion)
+
 -see Calendar of upcoming events
 
 -list contact information and directions
@@ -13,6 +15,7 @@ Develop a basic android application that allows users to: (in order of importanc
 -view happy hour info and special offers
 
 -browse current menu offerings
+
 
 
 Contributors:
