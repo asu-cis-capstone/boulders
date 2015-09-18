@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0" >
+    <meta name="robots" content="no index, no follow">
+    <meta name="description content="Welcome to Boulders on Broadway. Log in to add and edit beers/specials">
+    <!-- CSS Files will be linked here -->
+    <!-- JS Files are to be attached at the bottom of the page 
+    prior to the ending BODY tag. -->
+    <title>Boulders on Broadway</title>
+    
+  </head>
+  <body>
+    <header>This is where the navigation and other header content will go!</header>
+    <main>This is where the main content will go</main>
+    <footer>This is where the footer will go.</footer>
+    <!-- JS Scripts go here to optimize page load times. -->
+  </body>
+</html>
