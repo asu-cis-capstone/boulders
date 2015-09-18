@@ -1,27 +1,50 @@
-# Boulders on Broadway mobile App
+## Boulders on Broadway mobile App
 
+# Overview:
+  The Boulders on Broadway Mobile App will allow customers to see the beers that are
+  currently On Tap. The app will be comprised of a beer list, with photo and ratings.
+  Happy Hour drink specials and prices will be available within the app for customers
+  to see.
+  
+## Customer Functionality: 
 Develop a basic android application that allows users to: (in order of importance)
 
--look up current Boudler's on Broadway Draft list
+-Look up current Boudler's on Broadway Draft list
+-Pull up background information about each draft beer
+-Push notification when new beer is tapped (at manager's discretion)
+-See Calendar of upcoming events
+-List contact information and directions
+-View happy hour info and special offers
+-Browse current menu offerings
 
--pull up background information about each draft beer
+## Employee Functionality
 
--push notification when new beer is tapped (at manager's discretion)
+  -Login via email/password
+  -Create / Update / ? Delete ? Beers in the Overall Beer Database
+  -Create / Update / Terminate the On Tap list of Beers
+  -Create / Update / Terminate the Bottled Beer list
+  -Create / Update / Terminate Happy Hour specials and Prices.
+  -Create Events and Non-Happy Hour Specials
+  -Log Out
 
--see Calendar of upcoming events
+##   Potential Features:
+  1. Allow customers to log in. See their drink history.
+  2. Drink Challenges - created by employees, completed by Customers.
+  3. Allow customers to review beers - Add their Ratings.
+  
+## How It Will Work
 
--list contact information and directions
+  -Back end Database: MongoDB or Postgre Database
+  Using a server side language ( Ruby on Rails or PHP or Python tbd) process requests for data and 
+  submit it to the mobile application or website in JSON.
+  
+  The mobile app will parse the JSON and use it as the data in the application
+  The webpage will be a Single page application using AngularJS and the server side API to manage the database.
 
--view happy hour info and special offers
+##Contributors:
 
--browse current menu offerings
-
-
-
-Contributors:
-
-Benjamin Worcester, 
-Joy Jackson, 
-Jeff Ding, 
-Jake Richardson, 
-Steven Turturo
+  - Benjamin Worcester, 
+  - Joy Jackson, 
+  - Jeff Ding, 
+  - Jake Richardson, 
+  - Steven Turturo
