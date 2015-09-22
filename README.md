@@ -1,6 +1,6 @@
-## Boulders on Broadway mobile App
+# Boulders on Broadway mobile App
 
-# Overview:
+## Overview:
   The Boulders on Broadway Mobile App will allow customers to see the beers that are
   currently On Tap. The app will be comprised of a beer list, with photo and ratings.
   Happy Hour drink specials and prices will be available within the app for customers
@@ -34,7 +34,7 @@ Develop a basic android application that allows users to: (in order of importanc
   
 ## How It Will Work
 
-  -Back end Database: MongoDB or Postgre Database
+  Back end Database: MongoDB or Postgre Database
   Using a server side language ( Ruby on Rails or PHP or Python tbd) process requests for data and 
   submit it to the mobile application or website in JSON.
   
@@ -43,8 +43,8 @@ Develop a basic android application that allows users to: (in order of importanc
 
 ##Contributors:
 
-  - Benjamin Worcester, 
-  - Joy Jackson, 
-  - Jeff Ding, 
-  - Jake Richardson, 
+  - Benjamin Worcester
+  - Joy Jackson
+  - Jeff Ding
+  - Jake Richardson 
   - Steven Turturo
