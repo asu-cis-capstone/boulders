@@ -48,6 +48,7 @@ Develop a basic android application that allows users to: (in order of importanc
   4. Locate and click on file to install app
   
   NOTE: still working out issues with back-end, beer list info is pulled from local .json file to give an idea of app's appearance.
+  
   NOTE2: The app was built using html/css/javascript and we are using PhoneGap to compile that code into a native app.  Any changes to the app
          will be done through the code files in the BOB folder.  To then compile into a native PhoneGap will need all the files in the BOB folder
 		 EXCEPT the 'sampleApp-debug.apk' file.
