@@ -1,0 +1,35 @@
+[
+	{"Beer":"Lumberyard IPA","Style":"IPA","Pour":"14","ABV":"6.9","Price":"4.75"},
+	{"Beer":"Bud Light","Style":"Lager","Pour":"14","ABV":"4.5","Price":"3.75"},
+	{"Beer":"Left Hand Milk Stout","Style":"Stout","Pour":"14","ABV":"6.5","Price":"4.75"},
+	{"Beer":"Kellerweiss","Style":"Hefe","Pour":"14","ABV":"5.6","Price":"4.75"},
+	{"Beer":"Great White","Style":"White Ale","Pour":"14","ABV":"5.5","Price":"4.75"},
+	{"Beer":"Bourbon County","Style":"Imp. Stout","Pour":"12","ABV":"10.0","Price":"9.00"},
+	{"Beer":"Lumberyard IPA","Style":"IPA","Pour":"14","ABV":"6.9","Price":"4.75"},
+	{"Beer":"Bud Light","Style":"Lager","Pour":"14","ABV":"4.5","Price":"3.75"},
+	{"Beer":"Left Hand Milk Stout","Style":"Stout","Pour":"14","ABV":"6.5","Price":"4.75"},
+	{"Beer":"Kellerweiss","Style":"Hefe","Pour":"14","ABV":"5.6","Price":"4.75"},
+	{"Beer":"Great White","Style":"White Ale","Pour":"14","ABV":"5.5","Price":"4.75"},
+	{"Beer":"Bourbon County","Style":"Imp. Stout","Pour":"12","ABV":"10.0","Price":"9.00"},
+	{"Beer":"Lumberyard IPA","Style":"IPA","Pour":"14","ABV":"6.9","Price":"4.75"},
+	{"Beer":"Bud Light","Style":"Lager","Pour":"14","ABV":"4.5","Price":"3.75"},
+	{"Beer":"Left Hand Milk Stout","Style":"Stout","Pour":"14","ABV":"6.5","Price":"4.75"},
+	{"Beer":"Kellerweiss","Style":"Hefe","Pour":"14","ABV":"5.6","Price":"4.75"},
+	{"Beer":"Great White","Style":"White Ale","Pour":"14","ABV":"5.5","Price":"4.75"},
+	{"Beer":"Bourbon County","Style":"Imp. Stout","Pour":"12","ABV":"10.0","Price":"9.00"},
+	{"Beer":"Lumberyard IPA","Style":"IPA","Pour":"14","ABV":"6.9","Price":"4.75"},
+	{"Beer":"Bud Light","Style":"Lager","Pour":"14","ABV":"4.5","Price":"3.75"},
+	{"Beer":"Left Hand Milk Stout","Style":"Stout","Pour":"14","ABV":"6.5","Price":"4.75"},
+	{"Beer":"Kellerweiss","Style":"Hefe","Pour":"14","ABV":"5.6","Price":"4.75"},
+	{"Beer":"Great White","Style":"White Ale","Pour":"14","ABV":"5.5","Price":"4.75"},
+	{"Beer":"Bourbon County","Style":"Imp. Stout","Pour":"12","ABV":"10.0","Price":"9.00"},
+	{"Beer":"Lumberyard IPA","Style":"IPA","Pour":"14","ABV":"6.9","Price":"4.75"},
+	{"Beer":"Bud Light","Style":"Lager","Pour":"14","ABV":"4.5","Price":"3.75"},
+	{"Beer":"Left Hand Milk Stout","Style":"Stout","Pour":"14","ABV":"6.5","Price":"4.75"},
+	{"Beer":"Kellerweiss","Style":"Hefe","Pour":"14","ABV":"5.6","Price":"4.75"},
+	{"Beer":"Great White","Style":"White Ale","Pour":"14","ABV":"5.5","Price":"4.75"},
+	{"Beer":"Bourbon County","Style":"Imp. Stout","Pour":"12","ABV":"10.0","Price":"9.00"}
+	
+	
+	
+]
