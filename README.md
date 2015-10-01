@@ -42,11 +42,15 @@ Develop a basic android application that allows users to: (in order of importanc
   The webpage will be a Single page application using AngularJS and the server side API to manage the database.
 
 ##How to Install
-  1. Download the sampleApp-debug.apk file that is located in the BOB folder
+  1. Download the 'sampleApp-debug.apk' file that is located in the BOB folder
   2. Connect your android device to your computer via usb and move the file to your phone
   3. Ensure that installing apps from unknown sources is enabled in your android settings (under security in settings)
   4. Locate and click on file to install app
-  5. NOTE: still working out issues with back-end, beer list info is pulled from local .json file to give an idea of app's appearance.
+  
+  NOTE: still working out issues with back-end, beer list info is pulled from local .json file to give an idea of app's appearance.
+  NOTE2: The app was built using html/css/javascript and we are using PhoneGap to compile that code into a native app.  Any changes to the app
+         will be done through the code files in the BOB folder.  To then compile into a native PhoneGap will need all the files in the BOB folder
+		 EXCEPT the 'sampleApp-debug.apk' file.
   
   ##Contributors:
 
