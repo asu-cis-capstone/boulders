@@ -41,7 +41,14 @@ Develop a basic android application that allows users to: (in order of importanc
   The mobile app will parse the JSON and use it as the data in the application
   The webpage will be a Single page application using AngularJS and the server side API to manage the database.
 
-##Contributors:
+##How to Install
+  1. Download the sampleApp-debug.apk file that is located in the BOB folder
+  2. Connect your android device to your computer via usb and move the file to your phone
+  3. Ensure that installing apps from unknown sources is enabled in your android settings (under security in settings)
+  4. Locate and click on file to install app
+  5. NOTE: still working out issues with back-end, beer list info is pulled from local .json file to give an idea of app's appearance.
+  
+  ##Contributors:
 
   - Benjamin Worcester
   - Joy Jackson
