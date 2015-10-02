@@ -11,11 +11,11 @@ Develop a basic android application that allows users to: (in order of importanc
 
 -Look up current Boudler's on Broadway Draft list
 -Pull up background information about each draft beer
--Push notification when new beer is tapped (at manager's discretion)
 -See Calendar of upcoming events
 -List contact information and directions
 -View happy hour info and special offers
 -Browse current menu offerings
+-Push notification when new beer is tapped (at manager's discretion)
 
 ## Employee Functionality
 
@@ -35,23 +35,21 @@ Develop a basic android application that allows users to: (in order of importanc
 ## How It Will Work
 
   Back end Database: MongoDB or Postgre Database
-  Using a server side language ( Ruby on Rails or PHP or Python tbd) process requests for data and 
+  Using a server side language (PHP) process requests for data and 
   submit it to the mobile application or website in JSON.
   
   The mobile app will parse the JSON and use it as the data in the application
   The webpage will be a Single page application using AngularJS and the server side API to manage the database.
 
 ##How to Install
-  1. Download the 'sampleApp-debug.apk' file that is located in the BOB folder
+  1. Download the 'BOB.apk' file that is located in the BOB folder
   2. Connect your android device to your computer via usb and move the file to your phone
   3. Ensure that installing apps from unknown sources is enabled in your android settings (under security in settings)
   4. Locate and click on file to install app
   
-  NOTE: still working out issues with back-end, beer list info is pulled from local .json file to give an idea of app's appearance.
+  NOTE: still working out issues with back-end, beer list info is pulled from a json hosting site called 'myjson.com' to show the app can pull and use json data from a webserver, and it will also give an idea of draft list's appearance in the app.
   
-  NOTE2: The app was built using html/css/javascript and we are using PhoneGap to compile that code into a native app.  Any changes to the app
-         will be done through the code files in the BOB folder.  To then compile into a native PhoneGap will need all the files in the BOB folder
-		 EXCEPT the 'sampleApp-debug.apk' file.
+  NOTE2: The app was built using html/css/javascript and we are using PhoneGap to compile that code into a native app.  Any changes to the app will be done through the code files in the BOB folder.  To then compile into a native PhoneGap will need all the files in the BOB folder EXCEPT the 'BOB.apk' file.  To use PhoneGap to build the app you will need to create an account at Phonegap.com. Once you are signed-in go to the 'Apps' section to create a new app. From there you can either link to a github repo or submit a zipfile containing all the code mentioned above. PhoneGap will then compile the code and produce an .apk file for installation of the native app.
   
   ##Contributors:
 
