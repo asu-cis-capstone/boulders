@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval'">
 		
 		<link type="image/gif" rel="icon" href="beer.ico" />
 		<title>Boulders on Broadway</title>
@@ -17,7 +18,7 @@
 		<script>
 			var app = angular.module('myApp', []);
 			app.controller('myController', function($scope, $http) {
-			  $http.get('js/data.js').success(function (response){
+			  $http.get('https://api.myjson.com/bins/299d6').success(function (response){
 				$scope.beerList = response;});
 			});
 		</script>
