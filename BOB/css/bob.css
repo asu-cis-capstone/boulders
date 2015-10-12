@@ -1,0 +1,24 @@
+ .row-bottom-margin { margin-bottom:5px; }
+ 
+ .btn-text-color { 
+	color:#231410; 
+	background:tan;
+}
+
+.navbar-custom{
+	background: #231410;
+	padding-left:4px;
+	
+}
+
+a { color: tan !important; }
+
+a:hover { color: white !important; }
+
+.navbar-inverse .navbar-toggle { border-color: transparent; }
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+	border-color: transparent;
+	background-color: tan;
+}
