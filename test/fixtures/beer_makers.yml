@@ -2,10 +2,10 @@
 
 one:
   name: MyString
-  description: MyText
-  price: 9.99
+  location: MyString
+  date_of_founding: 2015-10-27
 
 two:
   name: MyString
-  description: MyText
-  price: 9.99
+  location: MyString
+  date_of_founding: 2015-10-27
