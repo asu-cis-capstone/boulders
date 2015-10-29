@@ -30,7 +30,8 @@
 			<div class='container'>
 				<div class='navbar-header'>
 					<a href='index.html' class='navbar-brand'>
-						 Boulders Draft List
+						<img src="images/boblogo.png" alt="logo" />
+						 Draft List
 					</a> 
 					
 					<button type='button' class='navbar-toggle' 
@@ -50,9 +51,125 @@
 		
 		<div ng-app="myApp" ng-controller="myController">
 			<div class='list-group'>
-				<button type='button' class='btn btn-block btn-text-color' ng-repeat="beer in beerList">
-					<h4 class='list-group-item-heading'>{{beer.Beer}}</h4>
-					<p class='list-group-item-text'>{{beer.Style + ' / ' + beer.Pour + 'oz / ' + beer.ABV + '% / $' + beer.Price}}</p>
+				<button type='button' class='btn btn-block btn-text-color' onclick="location.href='beers/beer1.html'" >
+					<h4 class='list-group-item-heading'>{{beerList[0].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[0].Style + ' / $' + beerList[0].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' onclick="location.href='beers/beer2.html'" >
+					<h4 class='list-group-item-heading'>{{beerList[1].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[1].Style + ' / $' + beerList[1].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' onclick="location.href='beers/beer3.html'" >
+					<h4 class='list-group-item-heading'>{{beerList[2].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[2].Style + ' / $' + beerList[2].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' onclick="location.href='beers/beer4.html'">
+					<h4 class='list-group-item-heading'>{{beerList[3].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[3].Style + ' / $' + beerList[3].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' onclick="location.href='beers/beer5.html'">
+					<h4 class='list-group-item-heading'>{{beerList[4].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[4].Style + ' / $' + beerList[4].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[5].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[5].Style + ' / $' + beerList[5].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[6].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[6].Style + ' / $' + beerList[6].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[7].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[7].Style + ' / $' + beerList[7].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[8].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[8].Style + ' / $' + beerList[8].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[9].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[9].Style + ' / $' + beerList[9].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[10].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[10].Style + ' / $' + beerList[10].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[11].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[11].Style + ' / $' + beerList[11].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[12].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[12].Style + ' / $' + beerList[12].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[13].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[13].Style + ' / $' + beerList[13].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[14].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[14].Style + ' / $' + beerList[14].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[15].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[15].Style + ' / $' + beerList[15].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[16].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[16].Style + ' / $' + beerList[16].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[17].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[17].Style + ' / $' + beerList[17].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[18].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[18].Style + ' / $' + beerList[18].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[19].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[19].Style + ' / $' + beerList[19].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[20].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[20].Style + ' / $' + beerList[20].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[21].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[21].Style + ' / $' + beerList[21].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[22].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[22].Style + ' / $' + beerList[22].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[23].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[23].Style + ' / $' + beerList[23].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[24].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[24].Style + ' / $' + beerList[24].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[25].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[25].Style + ' / $' + beerList[25].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[26].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[26].Style + ' / $' + beerList[26].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[27].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[27].Style + ' / $' + beerList[27].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[28].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[28].Style + ' / $' + beerList[28].Price}}</p>
+				</button>
+				<button type='button' class='btn btn-block btn-text-color' >
+					<h4 class='list-group-item-heading'>{{beerList[29].Beer}}</h4>
+					<p class='list-group-item-text'>{{beerList[29].Style + ' / $' + beerList[29].Price}}</p>
 				</button>
 			</div>
 		</div>

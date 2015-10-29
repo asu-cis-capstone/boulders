@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link type="image/gif" rel="icon" href="beer.ico" />
+		<title>Boulders on Broadway</title>
+		
+		<link href='../css/bootstrap.min.css' rel='stylesheet'>
+		<link href='../css/bob.css' rel='stylesheet'>
+		<script src='../js/jquery-1.11.3.min.js'></script>
+		<script src='../js/angular.min.js'></script>
+		<script src='../js/bootstrap.min.js'></script>
+		<script>
+			var app = angular.module('myApp', []);
+			app.controller('myController', function($scope, $http) {
+			  $http.get('https://api.myjson.com/bins/299d6').success(function (response){
+				$scope.beerList = response;});
+			});
+		</script>
+	</head>
+	
+	<body class="contact-background">
+		<div class='row row-bottom-margin navbar navbar-inverse navbar-static-top navbar-custom'>
+			<div class='container'>
+				<div class='navbar-header'>
+					<a href='../index.html' class='navbar-brand'>
+					<img src="../images/boblogo.png" alt="logo" />
+						Draft List
+					</a>
+					
+					<button type='button' class='navbar-toggle' 
+						data-toggle='collapse' data-target='.navbar-collapse'>
+						<span class='sr-only'>Toggle navigation</span>
+						<span class='icon-bar'></span>
+						<span class='icon-bar'></span>
+						<span class='icon-bar'></span>
+					</button>
+				</div>
+				<ul class='nav navbar-nav navbar-right collapse navbar-collapse'>
+					<li><a href='../events.html'>Upcoming Events</a></li>
+					<li><a href='../contact.html'>Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div ng-app="myApp" ng-controller="myController">
+			<p>
+				<span class="bold">Name: </span>
+				<span>{{beerList[4].Beer}}</span>
+			</p>
+			<p>
+				<span class="bold">Style: </span>
+				<span>{{beerList[4].Style}}</span>
+			</p>
+			<p>
+				<span class="bold">Pour: </span>
+				<span>{{beerList[4].Pour + 'oz'}}</span>
+			</p>
+			<p>
+				<span class="bold">ABV: </span>
+				<span>{{beerList[4].ABV + '%'}}</span>
+			</p>
+			<p>
+				<span class="bold">Price: </span>
+				<span>{{'$' + beerList[4].Price}}</span>
+			</p>
+		</div>	
+	
+	</body>
+	
+	
+</html>
