@@ -10,11 +10,17 @@
 Develop a basic android application that allows users to: (in order of importance)
 
 -Look up current Boudler's on Broadway Draft list
+
 -Pull up background information about each draft beer
+
 -See Calendar of upcoming events
+
 -List contact information and directions
--View happy hour info and special offers
+
 -Browse current menu offerings
+
+-View happy hour info and special offers
+
 -Push notification when new beer is tapped (at manager's discretion)
 
 ## Employee Functionality
