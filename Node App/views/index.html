@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- meta tags -->
+		<meta charset="utf-8" />
+		<meta name="robots" content="noindex,nofollow" />
+		
+		<title>All Beers</title>
+		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+		<script>
+			var app = angular.module('myApp', []);
+		
+			app.controller('myController', function($scope, $http) {
+				$http.get('http://beer2-bouldersapp.rhcloud.com/api/beers').success(function (response){
+				$scope.beerList = response;});
+				
+				$scope.setBeer = function(beer){
+					window.sessionStorage.setItem("beerObj", JSON.stringify(beer));
+				}; 
+			});
+			
+		</script>
+		
+		<style>
+			table, th, td {
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+		</style>
+		
+	</head>
+	
+	<body>
+		<p>
+			<a href="http://beer2-bouldersapp.rhcloud.com/newBeer">ADD NEW BEER</a>
+		</p>
+		
+		<div ng-app="myApp" ng-controller="myController"> 
+
+		<table>
+			<tr>
+				<th>Brewery</th>
+				<th>Beer</th>
+			</tr>
+		  <tr ng-repeat="beer in beerList | orderBy : 'brewery'">
+			<td>{{ beer.brewery }}</td>
+			<td>{{ beer.name }}</td>
+			<td>
+			  <a href="http://beer2-bouldersapp.rhcloud.com/edit" ng-click="setBeer(beer)">
+				<div style="height:100%;width:100%">
+				  EDIT
+				</div>
+			  </a>
+			</td>
+		  </tr>
+		</table>
+
+		</div>
+		
+			
+		
+		
+	</body>
+	
+</html>

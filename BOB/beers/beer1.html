@@ -13,16 +13,10 @@
 		<script src='../js/jquery-1.11.3.min.js'></script>
 		<script src='../js/angular.min.js'></script>
 		<script src='../js/bootstrap.min.js'></script>
-		<script>
-			var app = angular.module('myApp', []);
-			app.controller('myController', function($scope, $http) {
-			  $http.get('https://api.myjson.com/bins/299d6').success(function (response){
-				$scope.beerList = response;});
-			});
-		</script>
+		<script type="text/javascript" src="../js/app.js"></script>
 	</head>
 	
-	<body class="contact-background">
+	<body class="contact-background" >
 		<div class='row row-bottom-margin navbar navbar-inverse navbar-static-top navbar-custom'>
 			<div class='container'>
 				<div class='navbar-header'>
@@ -40,32 +34,44 @@
 					</button>
 				</div>
 				<ul class='nav navbar-nav navbar-right collapse navbar-collapse'>
-					<li><a href='../events.html'>Upcoming Events</a></li>
+					<li><a href='http://bouldersonbroadway.com/events' target='_blank'>Upcoming Events</a></li>
 					<li><a href='../contact.html'>Contact Us</a></li>
 				</ul>
 			</div>
 		</div>
 		
-		<div ng-app="myApp" ng-controller="myController">
+		<div ng-app="myApp" ng-controller="beerController">
 			<p>
 				<span class="bold">Name: </span>
-				<span>{{beerList[0].Beer}}</span>
+				<span>{{beer.name}}</span>
 			</p>
 			<p>
 				<span class="bold">Style: </span>
-				<span>{{beerList[0].Style}}</span>
+				<span>{{beer.style}}</span>
+			</p>
+			<p>
+				<span class="bold">Brewery: </span>
+				<span>{{beer.brewery}}</span>
+			</p>
+			<p>
+				<span class="bold">Location: </span>
+				<span>{{beer.location}}</span>
 			</p>
 			<p>
 				<span class="bold">Pour: </span>
-				<span>{{beerList[0].Pour + 'oz'}}</span>
+				<span>{{beer.pour + 'oz'}}</span>
 			</p>
 			<p>
 				<span class="bold">ABV: </span>
-				<span>{{beerList[0].ABV + '%'}}</span>
+				<span>{{beer.abv + '%'}}</span>
 			</p>
 			<p>
 				<span class="bold">Price: </span>
-				<span>{{'$' + beerList[0].Price}}</span>
+				<span>{{'$' + beer.price}}</span>
+			</p>
+			<p>
+				<span class="bold">Description: </span>
+				<span>{{beer.desc}}</span>
 			</p>
 		</div>	
 	

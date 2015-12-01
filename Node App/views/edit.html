@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- meta tags -->
+		<meta charset="utf-8" />
+		<meta name="robots" content="noindex,nofollow" />
+		
+		<title>Edit Beer</title>
+		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+		<script>
+			var app = angular.module('myApp', []);
+			
+			app.controller('beerController', function($scope, $http) {
+	
+				var data = window.sessionStorage.getItem("beerObj");
+				$scope.beer = JSON.parse(data);
+				$scope.id = $scope.beer._id;
+				
+				$scope.submitMyForm=function(){
+					var data = $scope.beer;
+					
+					$http.put('http://beer2-bouldersapp.rhcloud.com/api/beers/' + $scope.id, data);
+					
+					window.location.href = 'http://beer2-bouldersapp.rhcloud.com/confirm';
+				};
+				
+			});
+			
+		</script>
+	</head>
+	
+	<body>
+		
+		<div ng-app="myApp" ng-controller="beerController">
+			<form name="myForm" ng-submit="submitMyForm(id)">
+			
+			<label>Beer Name</label>
+			<input type="text" id="name" name="name" ng-model="beer.name" 
+			required
+			autofocus
+			/>
+			<br />
+			
+			<label>Style</label>
+			<input type="text" id="style" name="style" ng-model="beer.style" 
+			required
+			/>
+			<br />
+			
+			<label>Pour Size</label>
+			<input type="text" id="pour" name="pour" ng-model="beer.pour" 
+			required
+			/>
+			<br />
+			
+			<label>ABV</label>
+			<input type="text" id="abv" name="abv" ng-model="beer.abv" 
+			required
+			/>
+			<br />
+			
+			<label>Price</label>
+			<input type="text" id="price" name="price" ng-model="beer.price" 
+			required
+			/>
+			<br />
+			
+			<label>Brewery</label>
+			<input type="text" id="brewery" name="brewery" ng-model="beer.brewery" 
+			required
+			/>
+			<br />
+			
+			<label>Location</label>
+			<input type="text" id="location" name="location" ng-model="beer.location" 
+			required
+			/>
+			<br />
+			
+			<label>Description</label>
+			<br />
+			<textarea id="desc" name="desc" ng-model="beer.desc" 
+			required
+			></textarea>
+			<br />
+			
+			<label for="ontap">On Tap?</label>
+			<input type="checkbox" id="ontap" name="ontap" ng-model="beer.ontap" > 
+			<br />
+			
+			<label for="bottle">In Bottle?</label>
+			<input type="checkbox" id="bottle" name="bottle" ng-model="beer.bottle" >
+			<br />
+			
+			<input type="submit" id="submit" value=" SUBMIT "/>
+		</div>
+		
+		
+		
+	</body>
+	
+</html>
