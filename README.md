@@ -60,6 +60,7 @@ Develop a basic android application that allows users to: (in order of importanc
 ##How to Install
   1. Search 'Boulders on Broadway' in the Google Play store
   2. Download and install the app
+  3. App may also be installed via the BOB-release.apk file located in the root folder of this repo.
  
   NOTE: The app was built using html/css/javascript and we are using PhoneGap to compile that code into a native app.  Any changes to the app will be done through the code files in the BOB folder.  To then compile into a native app PhoneGap will need all the files in the BOB folder.  To use PhoneGap to build the app you will need to create an account at Phonegap.com. Once you are signed-in go to the 'Apps' section to create a new app. From there you can either link to a github repo or submit a zipfile containing all the code mentioned above. PhoneGap will then compile the code and produce an .apk file for installation of the native app.
   
