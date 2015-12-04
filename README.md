@@ -49,12 +49,12 @@ Develop a basic android application that allows users to: (in order of importanc
   Back end Database: MongoDB 
   Using a server side language (NodeJS) process requests for data and 
   submit it to the mobile application in JSON. 
-  The webpage will be a Single page application using a MEAN stack and the server side API to manage the database. API will be built using the web framwork Express and the library Node-Restful
+  The webpage will be a Single page application using a MEAN stack and the server side API to manage the database. API will be built using the web framwork Express and the library Node-Restful. The node app will be hosted by openshift to allow us to focus on coding rather than learning how to configure the server.  All code for the api and management site is located in the Node App foler.
   
   The mobile app will parse the JSON and use it as the data to display the draft list and detailed view of each beer. 
   All app code is done with html/css/js using the bootstrap framework to simpilfy styling.  The app is coded as if it is 
   mobile site and uses PhoneGap (www.phonegap.com) to create a native application. Details on using PhoneGap are in the   
-  Installation instructions below.
+  Installation instructions below.  All code for the mobile app is located in the BOB folder.
   
 
 ##How to Install
